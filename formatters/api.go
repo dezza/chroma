@@ -4,8 +4,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/alecthomas/chroma"
-	"github.com/alecthomas/chroma/formatters/html"
+	"github.com/dezza/chroma"
+	"github.com/dezza/chroma/formatters/html"
 )
 
 var (

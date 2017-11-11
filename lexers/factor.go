@@ -1,7 +1,7 @@
 package lexers
 
 import (
-	. "github.com/alecthomas/chroma" // nolint
+	. "github.com/dezza/chroma" // nolint
 )
 
 // Factor lexer.

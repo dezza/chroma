@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/alecthomas/chroma"
+	"github.com/dezza/chroma"
 )
 
 // Tokens formatter outputs the raw token structures.

@@ -15,13 +15,13 @@ import (
 
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
-	"gopkg.in/alecthomas/kingpin.v3-unstable"
+	"gopkg.in/dezza/kingpin.v3-unstable"
 
-	"github.com/alecthomas/chroma"
-	"github.com/alecthomas/chroma/formatters"
-	"github.com/alecthomas/chroma/formatters/html"
-	"github.com/alecthomas/chroma/lexers"
-	"github.com/alecthomas/chroma/styles"
+	"github.com/dezza/chroma"
+	"github.com/dezza/chroma/formatters"
+	"github.com/dezza/chroma/formatters/html"
+	"github.com/dezza/chroma/lexers"
+	"github.com/dezza/chroma/styles"
 )
 
 var (

@@ -8,16 +8,16 @@ import (
 
 	"github.com/aymerick/douceur/css"
 	"github.com/aymerick/douceur/parser"
-	"gopkg.in/alecthomas/kingpin.v3-unstable"
+	"gopkg.in/dezza/kingpin.v3-unstable"
 
-	"github.com/alecthomas/chroma"
+	"github.com/dezza/chroma"
 )
 
 const (
 	outputTemplate = `package styles
 
 import (
-	"github.com/alecthomas/chroma"
+	"github.com/dezza/chroma"
 )
 
 // {{.Name}} style.

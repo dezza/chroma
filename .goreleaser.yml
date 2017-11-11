@@ -1,7 +1,7 @@
 project_name: chroma
 release:
   github:
-    owner: alecthomas
+    owner: dezza
     name: chroma
 brew:
   install: bin.install "chroma"

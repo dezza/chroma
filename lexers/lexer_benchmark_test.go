@@ -3,7 +3,7 @@ package lexers
 import (
 	"testing"
 
-	"github.com/alecthomas/assert"
+	"github.com/dezza/assert"
 )
 
 const lexerBenchSource = `package chroma

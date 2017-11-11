@@ -1,7 +1,7 @@
 package styles
 
 import (
-	"github.com/alecthomas/chroma"
+	"github.com/dezza/chroma"
 )
 
 // Dark Low Contrast
@@ -9,13 +9,13 @@ import (
 // Lucius style.
 var Lucius = Register(chroma.MustNewStyle("lucius", chroma.StyleEntries{
 	chroma.Background:         "#bcbcbc bg:#303030",
-	chroma.Comment:            "#9e9e9e",
+	chroma.Comment:            "#6c6c6c",
 	chroma.CommentSpecial:     "#afaf00 bg:#5f5f00",
 	chroma.Keyword:            "#5fafd7", // Duplicates marked with *K
 	chroma.KeywordDeclaration: "#5fafd7", // *K
 	chroma.KeywordNamespace:   "#5fafd7", // *K
 	chroma.KeywordType:        "#5fafaf", // Type
-	chroma.Operator:           "#5fafd7", // *K
+	chroma.Operator:           "#bcbcbc", // *K
 	chroma.OperatorWord:       "#5fafd7", // *K
 	chroma.NameClass:          "#5fafd7", // *K
 	chroma.NameBuiltin:        "#5fafd7", // *K
@@ -26,7 +26,7 @@ var Lucius = Register(chroma.MustNewStyle("lucius", chroma.StyleEntries{
 	//chroma.GenericHeading:     "bold #00afd7",      //!
 	chroma.GenericSubheading: "bold #800080",      //!
 	chroma.GenericDeleted:    "#875f5f",           // DiffDelete (KeywordNamespace, Operator)
-	chroma.GenericInserted:   "#5f875f",           // DiffAdd (NameException)
+	chroma.GenericInserted:   "#5f875f",           // DiffAdd (NameException) (Green)
 	chroma.GenericError:      "underline #ff5f5f", //! Spellbad ()
 	chroma.GenericEmph:       "italic",            //! SpellCap (not sure)
 	chroma.GenericStrong:     "bold",              // SpellLocal

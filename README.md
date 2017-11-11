@@ -1,4 +1,4 @@
-# Chroma - A general purpose syntax highlighter in pure Go [![](https://godoc.org/github.com/alecthomas/chroma?status.svg)](http://godoc.org/github.com/alecthomas/chroma) [![Build Status](https://travis-ci.org/alecthomas/chroma.png)](https://travis-ci.org/alecthomas/chroma) [![Gitter chat](https://badges.gitter.im/alecthomas.png)](https://gitter.im/alecthomas/Lobby)
+# Chroma - A general purpose syntax highlighter in pure Go [![](https://godoc.org/github.com/dezza/chroma?status.svg)](http://godoc.org/github.com/dezza/chroma) [![Build Status](https://travis-ci.org/dezza/chroma.png)](https://travis-ci.org/dezza/chroma) [![Gitter chat](https://badges.gitter.im/dezza.png)](https://gitter.im/dezza/Lobby)
 
 > **NOTE:** As Chroma has just been released, its API is still in flux. That said, the high-level interface should not change significantly.
 
@@ -37,9 +37,9 @@ displayed with `chroma --list`._
 ## Using the library
 
 Chroma, like Pygments, has the concepts of
-[lexers](https://github.com/alecthomas/chroma/tree/master/lexers),
-[formatters](https://github.com/alecthomas/chroma/tree/master/formatters) and
-[styles](https://github.com/alecthomas/chroma/tree/master/styles).
+[lexers](https://github.com/dezza/chroma/tree/master/lexers),
+[formatters](https://github.com/dezza/chroma/tree/master/formatters) and
+[styles](https://github.com/dezza/chroma/tree/master/styles).
 
 Lexers convert source text into a stream of tokens, styles specify how token
 types are mapped to colours, and formatters convert tokens and styles into
@@ -171,7 +171,7 @@ python3 ~/Projects/chroma/_tools/pygments2chroma.py \
   && gofmt -s -w ~/Projects/chroma/lexers/*.go
 ```
 
-See notes in [pygments-lexers.go](https://github.com/alecthomas/chroma/blob/master/pygments-lexers.txt)
+See notes in [pygments-lexers.go](https://github.com/dezza/chroma/blob/master/pygments-lexers.txt)
 for a list of lexers, and notes on some of the issues importing them.
 
 ### Formatters
@@ -192,7 +192,7 @@ All Pygments styles have been converted to Chroma using the `_tools/style.py` sc
 A command-line interface to Chroma is included. It can be installed with:
 
 ```
-go get -u github.com/alecthomas/chroma/cmd/chroma
+go get -u github.com/dezza/chroma/cmd/chroma
 ```
 
 ## What's missing compared to Pygments?

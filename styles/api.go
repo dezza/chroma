@@ -3,7 +3,7 @@ package styles
 import (
 	"sort"
 
-	"github.com/alecthomas/chroma"
+	"github.com/dezza/chroma"
 )
 
 // Registry of Styles.

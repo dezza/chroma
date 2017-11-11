@@ -6,7 +6,7 @@ import (
 
 	"github.com/danwakefield/fnmatch"
 
-	"github.com/alecthomas/chroma"
+	"github.com/dezza/chroma"
 )
 
 // Registry of Lexers.

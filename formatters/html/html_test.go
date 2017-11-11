@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/alecthomas/assert"
+	"github.com/dezza/assert"
 
-	"github.com/alecthomas/chroma"
-	"github.com/alecthomas/chroma/lexers"
-	"github.com/alecthomas/chroma/styles"
+	"github.com/dezza/chroma"
+	"github.com/dezza/chroma/lexers"
+	"github.com/dezza/chroma/styles"
 )
 
 func TestCompressStyle(t *testing.T) {

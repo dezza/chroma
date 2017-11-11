@@ -3,7 +3,7 @@ package lexers
 import (
 	"regexp"
 
-	. "github.com/alecthomas/chroma" // nolint
+	. "github.com/dezza/chroma" // nolint
 )
 
 var bashAnalyserRe = regexp.MustCompile(`(?m)^#!.*/bin/(?:env |)(?:bash|zsh|sh|ksh)`)
